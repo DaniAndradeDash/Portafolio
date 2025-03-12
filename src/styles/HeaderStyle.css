@@ -1,0 +1,100 @@
+.containerHeader {
+    padding-top: 100px;
+    height: 800px;
+}
+
+h1 {
+    color: #00BF96;
+    text-shadow: #03f5c0 1px 3px 10px;
+    /*-webkit-text-stroke: .5px white;*/
+}
+
+.greenText {
+    color: #00BF96;
+}
+
+.headerText,
+.headerName {
+    margin-bottom: 15px;
+}
+
+.headerParrafo {
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+.headerButton {
+    background: #00BF96;
+    box-shadow: 0 5px 15px #00BF96;
+    transition: background 0.3 ease, box-shadow 0.3 ease;
+}
+
+.headerButton:hover {
+    background: #01a884 !important;
+    box-shadow: none;
+}
+
+.headerButton:active {
+    background: #01876a !important;
+    /* Color aún más oscuro */
+    box-shadow: 0 5px 15px #01876a;
+    /* Asegúrate de cambiar el color aquí también */
+}
+
+
+.poligonBackground {
+    position: relative;
+    margin-left: 150px;
+    width: 480px;
+    /* Ajusta el tamaño según necesites */
+    height: 500px;
+    /* Ajusta el tamaño según necesites */
+    background: url('../assets/BackgroundPhoto.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Color de fondo inicial */
+    /*clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);*/
+    /* Hexágono */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.poligonBackground img {
+    position: absolute;
+    top: -10px;
+    left: -35px;
+    object-fit: cover;
+    z-index: 2
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.textoRedes {
+    font-size: 1.5rem;
+    margin-right: 25px;
+}
+
+.iconoRedes {
+    margin-right: 15px;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.backgroundIcon {
+    width: 50px;
+    height: 50px;
+    background: url('../assets/BackgroundIcon.png') no-repeat;
+    background-size: contain;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.iconoRedes:hover {
+    color: #00BF96;
+}

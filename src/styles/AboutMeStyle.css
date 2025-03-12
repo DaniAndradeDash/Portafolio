@@ -1,0 +1,21 @@
+.boxAbout {
+    margin-top: 20px;
+    padding-top: 50px;
+    background: #1a1d20;
+    height: 500px;
+}
+
+.tittleAboutMe {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.buttonsAbout {
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+/*.btnOne {
+    margin-right: 25px;
+    margin-bottom: 25px;
+}*/

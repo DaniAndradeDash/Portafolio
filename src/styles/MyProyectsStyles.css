@@ -1,0 +1,17 @@
+.proyectsContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.proyectsContainer>h1 {
+    margin-bottom: 50px;
+}
+
+.nav {
+    margin-bottom: 30px;
+}
+
+.motion-div {
+    margin-right: 1rem;
+}

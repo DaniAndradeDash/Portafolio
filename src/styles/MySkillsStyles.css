@@ -1,0 +1,55 @@
+.skillContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #1a1d20;
+}
+
+.skillContainer>h1 {
+    margin-bottom: 30px;
+}
+
+.partOne {
+    background-color: #f9f9f9;
+    /* Color de fondo suave */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.7);
+    /* Sombra interior para efecto de caja hundida */
+    padding: 20px;
+    /* Espaciado interno */
+    margin: 20px;
+    /* Margen externo */
+}
+
+.partOne .skill {
+    background-color: #fff;
+    /* Color de fondo */
+    padding: 10px;
+    /* Espaciado interno */
+    margin-bottom: 10px;
+    /* Espaciado entre cada skill */
+    border-radius: 5px;
+    /* Bordes redondeados para cada skill */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra para cada skill */
+    display: flex;
+    align-items: center;
+}
+
+.partOne .skill:hover {
+    background-color: #00BF96;
+}
+
+.partOne .skill p {
+    flex: 1;
+    margin: 0;
+}
+
+.partOne .skill p:hover {
+    color: #fff;
+}
+
+.partOne .skill .progress {
+    flex: 2;
+    margin-left: 10px;
+}

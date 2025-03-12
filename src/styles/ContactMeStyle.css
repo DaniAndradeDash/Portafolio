@@ -1,0 +1,40 @@
+.formContacto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #1a1d20;
+}
+
+.formularioContacto {
+    background-color: #f9f9f9;
+    width: 650px;
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.7);
+    /* Sombra interior para efecto de caja hundida */
+    padding: 20px;
+    /* Espaciado interno */
+    margin: 20px;
+    /* Margen externo */
+}
+
+/* Estilo base para todos los Form.Control */
+.form-control {
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para todos los Form.Control */
+.form-control:hover {
+    border-color: #39ff14;
+    /* Verde neón */
+}
+
+/* Efecto cuando el Form.Control está enfocado */
+.form-control:focus {
+    border-color: #39ff14;
+    /* Verde neón */
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+    /* Sombra verde clara */
+    outline: none;
+    /* Remueve el outline predeterminado */
+}
