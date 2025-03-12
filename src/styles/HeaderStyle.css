@@ -9,6 +9,33 @@ h1 {
     /*-webkit-text-stroke: .5px white;*/
 }
 
+h1:hover {
+    color: rgba(255, 255, 255, 0.8);
+    /* Blanco con transparencia */
+    text-shadow: rgba(0, 191, 150, 0.5) 2px 4px 12px;
+    /* Sombra más clara */
+    transform: scale(1.05);
+    /* Agrandar ligeramente */
+}
+
+h1:hover::before {
+    content: "";
+    /* Crea el contorno */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #00BF96;
+    /* Contorno del color original */
+    transform: scale(1.1);
+    /* Ligeramente más grande */
+    z-index: -1;
+    /* Detrás del texto */
+    transition: all 0.3s ease-in-out;
+    /* Transición suave */
+}
+
 .greenText {
     color: #00BF96;
 }

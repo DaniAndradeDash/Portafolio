@@ -19,7 +19,7 @@ const MyProyects = () => {
                                 <Nav.Link eventKey="/home">Proyectos</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="/option2">Option 2</Nav.Link>
+                                <Nav.Link eventKey="/option2" disabled>Visualización</Nav.Link>
                             </Nav.Item>
                         </Nav>
 
@@ -46,7 +46,7 @@ const MyProyects = () => {
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5 }}
+                            transition={{ duration: 0.6 }}
                             className='motion-div'
                         >
                             <Card style={{ width: '18rem' }}>
@@ -64,7 +64,7 @@ const MyProyects = () => {
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5 }}
+                            transition={{ duration: 0.7 }}
                             className='motion-div'
                         >
                             <Card style={{ width: '18rem' }}>
@@ -84,7 +84,7 @@ const MyProyects = () => {
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5 }}
+                            transition={{ duration: 0.8 }}
                             className='motion-div'
                         >
                             <Card style={{ width: '18rem' }}>
@@ -102,7 +102,7 @@ const MyProyects = () => {
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5 }}
+                            transition={{ duration: 0.9 }}
                             className='motion-div'
                         >
                             <Card style={{ width: '18rem' }}>
@@ -120,7 +120,7 @@ const MyProyects = () => {
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5 }}
+                            transition={{ duration: 0.9 }}
                             className='motion-div'
                         >
                             <Card style={{ width: '18rem' }}>
