@@ -11,6 +11,10 @@ const MyProyects = () => {
     return (
         <div className='proyectsContainer d-flex flex-column align-items-center'>
             <h1>Mis Proyectos</h1>
+            <div class="alert alert-dismissible alert-secondary">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong>Obseravción:</strong> Para habilitar la sección "Visualización", es importante dar clic en el boton de la tarjeta del proyecto a visualizar.
+            </div>
             <Container>
                 <Row className='d-flex flex-column '>
                     <Col>
@@ -34,12 +38,11 @@ const MyProyects = () => {
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={photoProyect} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title>Topp & Screed México</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.
+                                        Creacion de un sitio web sencillo, dando a conocer las maquinas que el cliente maneja, conoce mas detalles de este proyecto.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Button variant="primary">Ver informacion General</Button>
                                 </Card.Body>
                             </Card>
                         </motion.div>
